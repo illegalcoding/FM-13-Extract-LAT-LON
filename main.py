@@ -49,6 +49,3 @@ for matchNum, match in enumerate(matches, start=1):
         lonMin = int(lonMin)
     url = "https://www.google.com/maps/place/" + str(latDeg) + '°' + str(latMin) + "'" + str(latSec) + '"' + str(quadLat) + '+' + str(lonDeg) + '°' + str(lonMin) + "'" + str(lonSec) + '"' + str(quadLon)
     print("Google maps URL: " + url)
-# 43 Degrees
-# 180 minutes
-# 0 Seconds
